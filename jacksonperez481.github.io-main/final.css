@@ -1,0 +1,242 @@
+/*styles for the entire body*/
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f1f1f1;
+}
+
+header {
+	background-color: transparent;
+	color: #000;
+	padding: 10px;
+	text-align: center;
+}
+
+header h1 {
+	display: inline-block;
+	border: 2px solid #000;
+	padding: 5px;
+	margin-bottom: 2px;
+}
+/*navigation styling*/
+nav {
+	background-color: #dcdcdc;
+	box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
+	border: 2px solid #000;
+	display: block;
+	padding: 20px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/*styling for navigation list*/
+nav ul{
+	list-style: none;
+	padding: 0;
+	text-align: center;
+}
+
+nav li {
+	display: inline;
+	margin-right: 20px;
+	padding: 15px;
+}
+
+/*styling for navigation links*/
+nav a {
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+	font-size: 24px;
+	border-bottom: 2px solid #000;
+	padding: 10px;
+	margin: 0 5px;
+}
+
+
+
+main {
+	text-align: right;
+	padding: 20px;
+}
+
+#hero {
+	text-align: center;
+}
+
+#hero img {
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+	height: auto;
+	border: 2px solid #000;
+}
+
+/*styling for newsletter section on homepage*/
+#newsletter {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 20px;
+	color: #fff;
+	background: linear-gradient(to bottom, #e74c3c, #ff7f7f);
+}
+
+form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+label {
+	margin-right: 10px;
+}
+
+input[type="submit"]{
+	background-color: #333;
+	color: #fff;
+	padding: 5px 10px;
+}
+/*footer styling*/
+footer {
+	clear: both;
+	text-align: center;
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+}
+#about-us {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+.about-column {
+    flex: 0 0 48%;
+    text-align: center;
+}
+/*styling for images within the about-us section*/
+.about-column img {
+    max-width: 100%;
+    border: 2px solid #000;
+    margin-bottom: 10px;
+}
+
+.about-column h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/*styling for youtube video*/
+#video-container{
+	text-align: center;
+	margin-top: 20px;
+}
+
+#video-container iframe{
+	max-width: 100%;
+	height: 100;
+}
+
+#fitness-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.fitness-image {
+    width: 30%;
+    text-align: center;
+	display: inline-block;
+	margin: 0 auto;
+	margin-right: 40px;
+}
+
+.fitness-image img {
+    max-width: 100%;
+    border: 2px solid #000;
+} 
+
+#centered-image {
+    width: 40%;
+    text-align: center;
+	display: block;
+	margin: 0 auto;
+}
+/*styling for fitness table on fitness section*/
+#fitness-table th, #fitness-table td{
+	padding: 15px;
+	text-align: left;
+	border: 2px solid #000;
+}
+
+#bikes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.bike-image {
+    width: 20%; 
+    text-align: center;
+    display: inline-block;
+    margin: 0 15px;
+    margin-bottom: 20px;
+}
+
+.bike-image img {
+    max-width: 100%;
+    border: 2px solid #000;
+}
+
+#bike-services {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#bike-services h2 {
+    margin-bottom: 20px;
+}
+
+#bike-services ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#bike-services li {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+/* media queries for small screens */
+@media only screen and (max-width: 480px) {
+
+	body {
+		font-size: 12px;
+	}
+	
+	nav a {
+		font-size: 12px;
+		padding : 0 20;
+	}}
+/*media queries for medium screens */	
+@media only screen and (max-width: 768px){
+
+	body {
+		font-size: 12px;
+	}
+	
+	nav a {
+		font-size: 12px;
+		padding: 0 20px;
+	}
+}
